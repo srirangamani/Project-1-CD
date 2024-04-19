@@ -1,0 +1,135 @@
+/* .inspiration-regular { */
+    /* font-family: "Inspiration", cursive; */
+    /* font-weight: 400; */
+    /* font-style: normal; */
+  /* } */
+  /* .poppins-light { */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 300; */
+    /* font-style: normal; */
+  /* } */
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+  }
+  
+  
+  body{
+    /* min-width: 100px; */
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('pexels-ali-muftuogullari-1151175-2297472.jpg');
+    color: white;
+    /* background-size: cover ; */
+    /* background-position: center; */
+  }
+
+
+  .counter{
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;   
+
+  }
+
+
+  p{
+    font-size: 13px;
+    text-shadow: 2px 1px 20px  white;
+  }
+
+  
+  
+
+  .newyear{
+    font-family:"jersey 25",sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+
+  
+  
+  }
+  .box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: none;
+  
+  
+  }
+  .box h2{
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+
+
+  .box small{
+    font-size: 10px;
+  }
+  @media(min-width:576px){
+.newyear{
+  font-size: 50px;
+}
+p{
+  font-size: 18px;
+}
+.box h2{
+  font-size: 30px;
+}
+.box{
+  width: 100px;
+  height: 70px;
+}
+.box small{
+  font-size: 15px;
+}
+  }
+
+
+  @media(min-width:768px){
+
+    .newyear{
+      font-size: 50px;
+    }
+    p{
+      font-size: 25px;
+    }
+    .box h2{
+      font-size: 50px;
+    }
+    .box{
+      width: 150px;
+      height: 100px;
+    }
+    .box small{
+      font-size: 20px;
+    }
+  }
+
+
+  #birth{
+    color: yellow;
+    font-size: 30px;
+    border-radius: 12px;
+    border-style: double;
+    background:linear-gradient(white,black);
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  h1{
+  color: aliceblue;
+  text-decoration: underline;
+  }
